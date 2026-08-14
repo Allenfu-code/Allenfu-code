@@ -28,9 +28,10 @@ deliberately excluded.
 
 ### [Secure LINE Webhook](https://github.com/Allenfu-code/line-cloudflare-webhook)
 
-A Node.js webhook deployed behind a dedicated Cloudflare Tunnel. It verifies
-the exact raw request body with LINE HMAC before parsing, bounds request size
-and concurrency, uses generic errors, and keeps the origin loopback-only.
+A standalone Node.js security reference for LINE webhooks. It verifies the
+exact raw request body with LINE HMAC before parsing, bounds request size and
+concurrency, uses generic errors, and includes a loopback-only Cloudflare
+deployment pattern. The active bot uses Hermes Gateway's separate LINE adapter.
 
 `Node.js` · `LINE Messaging API` · `HMAC` · `Cloudflare Tunnel` · `CI`
 
