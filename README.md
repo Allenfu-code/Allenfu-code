@@ -17,6 +17,15 @@ not load production credentials.
 
 `Python` · `LiveKit` · `OpenAI Realtime` · `SIP` · `pytest`
 
+### [Secure Sites Hub](https://github.com/Allenfu-code/secure-sites-hub)
+
+A read-only FastAPI operations dashboard for self-hosted services, with
+Argon2 authentication, secure sessions, health history, and a loopback-only
+Cloudflare Tunnel deployment pattern. The public repository uses synthetic
+fixtures and deliberately excludes production inventory and topology.
+
+`Python` · `FastAPI` · `Argon2` · `Cloudflare Tunnel` · `systemd` · `CI`
+
 ### [Taiwan Stock ML Research](https://github.com/Allenfu-code/taiwan-stock-ml-research)
 
 A leakage-aware quantitative research pipeline with deterministic synthetic
